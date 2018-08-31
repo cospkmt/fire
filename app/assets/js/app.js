@@ -45,7 +45,7 @@
               }
           });
       });
-      
+
       $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
         disableOn: 700,
         type: 'iframe',
@@ -207,8 +207,8 @@
           autoHeight: autoheight || false,
           rtl: rtl || false,
           margin: margin || 0,
-          autoplayTimeout: autoplaySpeed || 3000,
-          autoplaySpeed: 400,
+          autoplayTimeout: autoplaySpeed || 6000,
+          autoplaySpeed: 1200,
           autoplayHoverPause: true,
           responsive: {
             0: { items: items[2] || 1 },
@@ -216,7 +216,7 @@
             1200: { items: items[0] || 1}
           }
         };
-        
+
         a.owlCarousel(options);
       });
     },
@@ -261,8 +261,8 @@
       $('[data-toggle="tooltip"]').tooltip();
 
 
-      skrollr.init({  
-          forceHeight: false,        
+      skrollr.init({
+          forceHeight: false,
           mobileCheck: function() {
               //hack - forces mobile version to be off
               return false;

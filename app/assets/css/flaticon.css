@@ -1,0 +1,71 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/06/2016 15:41
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+  font-family: Flaticon;
+        font-size: 100px;
+font-style: normal;
+margin-left: 10px;
+}
+
+.flaticon-alarm:before { content: "\f100"; }
+.flaticon-alarm-1:before { content: "\f101"; }
+.flaticon-axe:before { content: "\f102"; }
+.flaticon-bonfire:before { content: "\f103"; }
+.flaticon-boots:before { content: "\f104"; }
+.flaticon-bucket:before { content: "\f105"; }
+.flaticon-burning-building:before { content: "\f106"; }
+.flaticon-burning-tree:before { content: "\f107"; }
+.flaticon-car:before { content: "\f108"; }
+.flaticon-cone:before { content: "\f109"; }
+.flaticon-electric-fire:before { content: "\f10a"; }
+.flaticon-exit:before { content: "\f10b"; }
+.flaticon-fence:before { content: "\f10c"; }
+.flaticon-fire-alarm:before { content: "\f10d"; }
+.flaticon-fire-extinguisher:before { content: "\f10e"; }
+.flaticon-fire-hydrant:before { content: "\f10f"; }
+.flaticon-fire-station:before { content: "\f110"; }
+.flaticon-fire-truck:before { content: "\f111"; }
+.flaticon-fire-truck-1:before { content: "\f112"; }
+.flaticon-fireman:before { content: "\f113"; }
+.flaticon-first-aid-kit:before { content: "\f114"; }
+.flaticon-fuel:before { content: "\f115"; }
+.flaticon-gas-mask:before { content: "\f116"; }
+.flaticon-glove:before { content: "\f117"; }
+.flaticon-harness:before { content: "\f118"; }
+.flaticon-hose:before { content: "\f119"; }
+.flaticon-house-on-fire:before { content: "\f11a"; }
+.flaticon-ladder:before { content: "\f11b"; }
+.flaticon-match:before { content: "\f11c"; }
+.flaticon-megaphone:before { content: "\f11d"; }
+.flaticon-oxygen-tank:before { content: "\f11e"; }
+.flaticon-phone-call:before { content: "\f11f"; }
+.flaticon-run:before { content: "\f120"; }
+.flaticon-sand:before { content: "\f121"; }
+.flaticon-shield:before { content: "\f122"; }
+.flaticon-shovel:before { content: "\f123"; }
+.flaticon-shovel-1:before { content: "\f124"; }
+.flaticon-smartphone:before { content: "\f125"; }
+.flaticon-socket:before { content: "\f126"; }
+.flaticon-walkie-talkie:before { content: "\f127"; }
