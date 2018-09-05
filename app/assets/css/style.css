@@ -2107,10 +2107,6 @@ input[type="button"].btn-block {
   margin-top: 0;
   margin-bottom: 0.125rem; }
 
-  .dropdown:hover .dropdown-menu {
-    display: block;
-  }
-
 .dropup .dropdown-toggle::after {
   display: inline-block;
   width: 0;
@@ -2147,6 +2143,16 @@ input[type="button"].btn-block {
 
 .dropright .dropdown-toggle:empty::after {
   margin-left: 0; }
+
+.dropdown-third {
+  display: none;
+  visibility: hidden;
+}
+
+.top-third:hover + .dropdown-third {
+  display: block;
+  visibility: visible;
+}
 
 .dropright .dropdown-toggle::after {
   vertical-align: 0; }
