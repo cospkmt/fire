@@ -68,7 +68,7 @@ $colors: map-merge((
   "transparent-black": $transparent-black
 ), $colors);
 
-$primary:       $purple;
+$primary:       $red;
 $secondary:     $gray-200;
 $success:       $green;
 $info:          $cyan;
@@ -738,7 +738,7 @@ $badge-padding-x:                   1rem;
 $badge-border-radius:               $border-radius !default;
 
 $badge-pill-padding-x:              $badge-padding-x;
-// Use a higher than normal value to ensure completely rounded edges when 
+// Use a higher than normal value to ensure completely rounded edges when
 // customizing padding or font-size on labels.
 $badge-pill-border-radius:          10rem !default;
 

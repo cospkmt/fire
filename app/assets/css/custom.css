@@ -1,0 +1,9 @@
+.dropdown-third {
+  display: none;
+  visibility: hidden;
+}
+
+.top-third:hover + .dropdown-third {
+  display: block;
+  visibility: visible;
+}
