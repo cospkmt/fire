@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../../assets/css/vendor.css" />
     <link rel="stylesheet" href="../../assets/css/style.css" />
     <link rel="stylesheet" href="../../assets/css/flaticon.css" />
+    <link href="https://assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
   </head>
   <body>
 
@@ -167,12 +168,12 @@
     <!-- header -->
 
     <!-- carousel -->
-    <section id="default" class="component">
+    <section id="default" class="component owl">
       <div class="tab-content" id="component-1">
         <div class="tab-pane show active" id="component-1-1" role="tabpanel" aria-labelledby="component-1-1">
           <div class="component-example component-example-fluid">
             <div class="container-fluid">
-              <div class="owl-carousel" data-autoplay="true" data-loop="true" data-nav="true">
+              <div class="owl-carousel" data-autoplay="false" data-loop="true" data-nav="true">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide bg-dark">
                     <div class="image image-gradient-horizontal-light" style="background-image:url(../assets/images/171576810-2048x2048.jpg)"></div>
@@ -188,7 +189,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="swiper-slide bg-dark">
+                  <!-- <div class="swiper-slide bg-dark">
                     <div class="image image-gradient-horizontal-light" style="background-image:url(../assets/images/814290262-2048x2048.jpg)"></div>
                     <div class="caption" data-swiper-parallax-y="-100%">
                       <div class="container">
@@ -215,7 +216,7 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                 </div>
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
@@ -230,8 +231,8 @@
     <!-- / carousel -->
 
     <!-- callouts -->
-    <section class="pt-0 bg-light">
-      <div class="container">
+    <section class="pt-0 bg-dark">
+      <div class="container callouts">
         <div class="row gutter-4">
           <div class="col-md-6 col-lg-4 p-5 text-center">
             <div class="boxed rising p-4">
@@ -260,15 +261,20 @@
     </section>
     <!-- / services -->
 
-    <!-- testimonials -->
-    <section class="bg-light">
+    <!-- facebook feed -->
+    <section class="bg-white">
       <div class="container">
-          <div class="fb-page" data-href="https://www.facebook.com/St-Petersburg-Fire-Rescue-828716193866429" data-tabs="timeline" data-width="600" data-height="600" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/St-Petersburg-Fire-Rescue-828716193866429" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/St-Petersburg-Fire-Rescue-828716193866429">St. Petersburg Fire Rescue</a></blockquote></div>
+        <div class="col text-center">
+          <h2>Facebook Feed</h2>
+        </div>
+        <div class="col-md-12">
+          <ul class="juicer-feed" data-feed-id="828716193866429" data-per="4" data-truncate="100"><h1 class="referral"><a href="https://www.juicer.io">Powered by Juicer</a></h1></ul>
+        </div>
       </div>
     </section>
-    <!-- / testimonials -->
+    <!-- / facebook feed -->
 
-    <!-- blog -->
+    <!-- news -->
     <section class="bg-light">
       <div class="container">
         <div class="row">
@@ -304,7 +310,7 @@
         </div>
       </div>
     </section>
-    <!-- / blog -->
+    <!-- / news -->
 
 
     <!-- footer -->
@@ -335,6 +341,7 @@
 
     <script src="../../assets/js/vendor.js"></script>
     <script src="../../assets/js/app.js"></script>
+    <script src="https://assets.juicer.io/embed.js" type="text/javascript"></script>
 
   </body>
 </html>
