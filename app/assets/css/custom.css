@@ -7,3 +7,16 @@
   display: block;
   visibility: visible;
 }
+
+.pt-0, .py-0 {
+  padding-top: 6.25rem !important;
+}
+
+.owl-carousel .owl-stage-outer .owl-stage .owl-item img {
+  width: 100% !important;
+  height: 700px;
+}
+
+header {
+  border: none;
+}
