@@ -1,11 +1,10 @@
-.dropdown-third {
-  display: none;
-  visibility: hidden;
+.mega-title {
+  margin-bottom: 0 !important;
+  color: #151515 !important;
 }
 
-.top-third:hover + .dropdown-third {
-  display: block;
-  visibility: visible;
+.dropdown-item {
+  padding: 5px 10px 15px 25px !important;
 }
 
 .pt-0, .py-0 {
@@ -19,4 +18,23 @@
 
 header {
   border: none;
+  background-color: #fff !important;
+  opacity: 0.9;
+}
+
+.presentation img {
+  max-width: 75% !important;
+}
+
+section#default {
+  padding-top: 78px !important;
+  padding-bottom: 0px !important;
+}
+
+.section-lg {
+  padding-top: 0px !important;
+}
+
+.body-bullets {
+  color: #999 !important;
 }

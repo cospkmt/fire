@@ -1,159 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Operations</title>
-    <link rel="stylesheet" href="../../assets/css/vendor.css" />
-    <link rel="stylesheet" href="../../assets/css/style.css" />
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>St. Pete Fire Rescue</title>
+  <link rel="stylesheet" href="../../assets/css/vendor.css" />
+  <link rel="stylesheet" href="../../assets/css/style.css" />
+  <link rel="stylesheet" href="../../assets/css/flaticon.css" />
+  <link rel="stylesheet" type="text/css" href="../../assets/css/custom.css">
+  <link href="https://assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>
+    $(function(){
+      $('#nav').load('../../html/templates/nav.html');
+    });
+  </script>
+</head>
+<body>
 
-    <!-- header -->
-    <header class="header-sticky header-light">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand" href="../../index.html">
-            <h4>St. Pete Fire Rescue</h4>
-            <!-- <img class="navbar-logo navbar-logo-light" src="../../assets/images/demo/logo/logo-light.svg" alt="Logo">
-            <img class="navbar-logo navbar-logo-dark" src="../../assets/images/demo/logo/logo-dark.svg" alt="Logo"> -->
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="burger"><span></span></span></button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav align-items-center mr-auto">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  About Us
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="../../html/staff.html">
-                    <span>Staff</span>
-                  </a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item top-third dropdown-toggle" href="../../html/operations.html">
-                    <span>Operations</span>
-                  </a>
-                  <div class="dropdown-third">
-                    <a class="dropdown-item" href="../../html/apparatus.html">
-                      <span>Apparatus</span>
-                    </a>
-                    <a class="dropdown-item" href="../../html/deployment.html">
-                      <span>Deployment</span>
-                    </a>
-                  </div>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="../../html/faqs.html">
-                    <span>FAQs</span>
-                  </a>
-                <div class="dropdown-divider"></div>
-                  <a class="dropdown-item top-third dropdown-toggle" href="../../html/administration.html">
-                    <span>Administration</span>
-                  </a>
-                  <div class="dropdown-third">
-                    <a class="dropdown-item" href="../../html/iso_accr_stratplan.html">
-                      <span>ISO, Accredidation, Strategic Plan</span>
-                    </a>
-                    <a class="dropdown-item" href="../../html/dept_stats.html">
-                      <span>Department Stats</span>
-                    </a>
-                    <a class="dropdown-item" href="../../html/financial_services.html">
-                      <span>Financial Services</span>
-                    </a>
-                  </div>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="../../html/feedback.html">
-                  <span>Feedback</span>
-                </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="../../html/history.html">
-                  <span>History</span>
-                </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="../../html/news.html">
-                  <span>News</span>
-                </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="../../html/contact.html">
-                  <span>Contact Us</span>
-                </a>
-              </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Programs
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item top-third dropdown-toggle" href="../../html/prevention.html">
-                    <span>Prevention</span>
-                  </a>
-                  <div class="dropdown-third">
-                    <a class="dropdown-item" href="../../html/community_outreach.html">
-                      <span>Community Outreach</span>
-                    </a>
-                    <a class="dropdown-item" href="../../html/services.html">
-                      <span>Services</span>
-                    </a>
-                  </div>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item top-third dropdown-toggle" href="../../html/ems.html">
-                    <span>EMS</span>
-                  </a>
-                  <div class="dropdown-third">
-                    <a class="dropdown-item" href="../../html/telemedic.html">
-                      <span>Telemedic Program</span>
-                    </a>
-                    <a class="dropdown-item" href="../../html/cpr_firstaid.html">
-                      <span>CPR/First Aid Training</span>
-                    </a>
-                  </div>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="../../html/safety_training.html">
-                    <span>Safety and Training</span>
-                  </a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="../../html/fire_suppression.html">
-                    <span>Fire Suppression</span>
-                  </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="../../html/emergency_management.html">
-                  <span>Emergency Management</span>
-                </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="../../html/specialty_teams.html">
-                  <span>Specialty Teams</span>
-                </a>
-              </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../../html/stations.html" role="button">
-                  Stations
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../../html/public.html" role="button">
-                  Public
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../../html/careers.html" role="button">
-                  Careers
-                </a>
-              </li>
-            </ul>
-
-            <ul class="navbar-nav align-items-center mr-0">
-              <li class="nav-item">
-                <a class="nav-link" href="../../index.html" role="button">
-                  Members Only (template cheat link)
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </header>
-    <!-- header -->
+  <!-- header -->
+  <header class="header-sticky header-light">
+    <div id="nav"></div>
+  </header>
+  <!-- header -->
 
     <!-- cover -->
     <section>
@@ -177,24 +46,49 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-10 col-lg-8">
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium fugiat harum ex dolor ea ut commodi iste, cupiditate libero magnam alias numquam natus ipsum sint accusamus eligendi laboriosam consequuntur tenetur.</p>
+            <p class="lead"><strong>Update all stats on this page. </strong>These are just some of the possible emergency incidents that occur in St. Petersburg on any given day. Although we cannot prevent these emergencies, we can take steps to lessen their impact on individual citizens and the community as a whole. The division is responsible for the staffing, training, equipment, and supplies necessary to provide protection to the citizens and the community. Staffed with 310 professional firefighters, the Operations Division protects more than 250,000 customers across 60 square miles of St. Petersburg and at the same time staffs and operates 12 fire stations.</p>
             <hr class="w-25">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum ducimus, quaerat esse numquam delectus minus odit expedita atque maiores illo. Quasi dolore pariatur magni accusamus totam error sunt nesciunt explicabo.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi officiis earum recusandae iure, animi repudiandae blanditiis consectetur nihil id voluptas est ullam doloremque impedit officia nesciunt, minima dolores aspernatur a.</p>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-10 col-lg-8 text-white">
-            <blockquote class="blockquote blockquote-2 bg-primary">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed cupiditate exercitationem quisquam. Saepe, dolor illum amet voluptatem modi voluptatibus, nemo earum eligendi deleniti sit facere quae cum assumenda voluptate, iure.</p>
-              <footer class="blockquote-footer">Michael Doe</footer>
-            </blockquote>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-10 col-lg-8">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum ducimus, quaerat esse numquam delectus minus odit expedita atque maiores illo. Quasi dolore pariatur magni accusamus totam error sunt nesciunt explicabo.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi officiis earum recusandae iure, animi repudiandae blanditiis consectetur nihil id voluptas est ullam doloremque impedit officia nesciunt, minima dolores aspernatur a.</p>
+            <p>The Operations Division provides emergency response and intervention to fire and emergency incidents through the 911 answering point. In the year 2010 fire units responded to 13,696 emergency calls for service including:
+              <ul class="body-bullets">
+                <li>Structure fires</li>
+                <li>Hazardous conditions</li>
+                <li>Hazardous Materials incidents (spills, leaks, etc)</li>
+                <li>Technical rescue incidents (high rise rescue, building collapse, extrication at vehicle accidents)</li>
+                <li>Marine rescue calls (includes an underwater search and rescue capability)</li>
+              </ul>
+            <p>In addition to emergency responses, the 325 personnel assigned to operations perform other duties including:</p>
+              <ul class="body-bullets">
+                <li>Public education on fire safety and department operations</li>
+                <li>Fire station tours</li>
+                <li>Assist the Fire Prevention division with commercial inspections</li>
+                <li>Inspected fire hydrants in their respective territories</li>
+                <li>Perform Home safety checks and free smoke detector installation (includes free battery replacement when notified)</li>
+                <li>Support of community events such as First Night, 4th of July celebration, and various other concerts and gatherings at the downtown parks</li>
+              </ul>
+            </p>
+            <hr class="w-25">
+            <h5>Personnel</h5>
+            <p>All personnel hired since 1985 are required to maintain state certification as both firefighters and emergency medical technicians. Paramedics are also required to be state certified as firefighters. Company officers must have successfully completed seven college courses required for state certification as an officer. Officers and personnel of the Operations Division pride themselves on a proactive approach to fire prevention, public education, and emergency medical services while maintaining the highest degree of emergency preparedness.</p>
+            <hr class="w-25">
+            <h5>Stations</h5>
+            <p>The division provides service from twelve stations strategically located through the district. Each station is managed by a fire captain who is responsible for the operation and maintenance of his/her respective facility. Due to the work schedule that covers the entire 24-hour period, all stations are equipped with kitchen and dormitory facilities. The Master Station is our largest station, housing two fire companies and two advanced life support (ALS) units. Stations 4, 9, and 11 all house two fire companies and an ALS unit. Stations 3, 6, 7, 8 and 10 are single company stations, each with an ALS unit. Stations 12, and 13 are all single engine companies providing ALS services.</p>
+            <button type="button" class="btn btn-primary">Visit the Stations page</button>
+            <hr class="w-25">
+            <h5>Apparatus</h5>
+            <p>In order to provide a broad range of services, a variety of apparatus and specialized equipment is maintained. There are nine pumpers capable of delivering 1250 gallons per minute (GPM), four 1500 GPM pumpers, and four 100-foot elevating platforms capable of delivering 1500 GPM each. Wild land fires are addressed by a brush truck that is a modular brush firefighting unit which can be hydraulically removed, freeing the truck for other fire department operations. In addition to the brush module, a stake bed body supports the Technical Rescue Team. Emergency scene power is provided by a squad unit with generator, lights, ventilation, and an air bottle re-filling station.</p>
+            <button type="button" class="btn btn-primary">Visit the Apparatus page</button>
+            <hr class="w-25">
+            <h5>Marine Team</h5>
+            <p>Housed at the Lakewood Fire Station, Station Eleven, and in addition to Engine 11, Truck 11, and Rescue 11, the Marine Water Rescue and Dive Team is available for response to various water related emergencies throughout the St. Petersburg peninsula. The dive team was originally formed in the early 1960's and is now the nucleus of the Marine Unit assigned at the Lakewood Station. The Marine Unit consists of a 27' Boston Whaler Vigilant rescue/fire boat (M15) with full electronics, a 13' Avon rigid hull inflatable (M14), and a Freightliner Utilimaster (M11) to transport all of the specialized equipment required to perform a variety of water related rescues.</p>
+            <p>Personnel at the Lakewood Station include certified divers and USCG certified boat operators who train on a monthly basis in various locations in and around the area. The dive team has worked closely with the St. Petersburg Police Department on several evidentiary dives.</p>
+            <hr class="w-25">
+            <h5>Technical Rescue</h5>
+            <p>The North Shore Fire Station, Station Four, houses the department’s Technical Rescue Team (TRT), in addition to Engine 4, Truck 4, and Rescue 4. The TRT is ready to respond to any emergency requiring specialized services including high angle rescue, building collapse, below ground rescue, difficult extrication situations, and natural disasters. The team trains at least once a month, sometimes with other agencies from surrounding cities and counties.</p>
+            <p>A large cache of specialized equipment and supplies have been acquired through several grants from the State of Florida Department of Emergency Management.</p>
+            <hr class="w-25">
+            <h5>HAZMAT Team</h5>
+            <p>Housed at the Downtown Master Station, Station Five, the Hazardous Material Team is ready to respond to any incident requiring their specialized services within the city and county. At their disposal is a wide range of technical equipment including an on-board computer with a data base identifying over 8,000 hazardous chemicals, portable phones, and fax machines.</p>
+            <p>As an integral part of the Pinellas County Hazardous Materials program, the team participates in bi-monthly training exercises. These training sessions are provided by instructors internally, and also include special training from Shell Oil, Amoco Safety Training, Air Products, Peoples Gas, and the Environmental Protection Agency. The team routinely trains with members from Haz Mat teams in Largo, Seminole, Pinellas Park and Palm Harbor - all of which comprise the Pinellas County Hazardous Material Response Team.</p>
           </div>
         </div>
       </div>

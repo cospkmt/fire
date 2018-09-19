@@ -1,231 +1,327 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Contact</title>
-    <link rel="stylesheet" href="../../assets/css/vendor.css" />
-    <link rel="stylesheet" href="../../assets/css/style.css" />
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>St. Pete Fire Rescue</title>
+  <link rel="stylesheet" href="../../assets/css/vendor.css" />
+  <link rel="stylesheet" href="../../assets/css/style.css" />
+  <link rel="stylesheet" href="../../assets/css/flaticon.css" />
+  <link rel="stylesheet" type="text/css" href="../../assets/css/custom.css">
+  <link href="https://assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>
+    $(function(){
+      $('#nav').load('../../html/templates/nav.html');
+    });
+  </script>
+</head>
+<body>
 
-    <!-- header -->
-    <header class="header-sticky header-light">
+  <!-- header -->
+  <header class="header-sticky header-light">
+    <div id="nav"></div>
+  </header>
+  <!-- header -->
+
+  <!-- map -->
+  <section class="hero hero-with-header text-white">
+    <div class="map">
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand" href="../../index.html">
-            <h4>St. Pete Fire Rescue</h4>
-            <!-- <img class="navbar-logo navbar-logo-light" src="../../assets/images/demo/logo/logo-light.svg" alt="Logo">
-            <img class="navbar-logo navbar-logo-dark" src="../../assets/images/demo/logo/logo-dark.svg" alt="Logo"> -->
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="burger"><span></span></span></button>
+        <div class="row vh-50 align-items-end">
+          <div class="col-md-10">
+            <h1 class="mb-0">St. Petersburg Fire Rescue Master Station</h1>
+            <p>455 8th St S, St. Petersburg, FL 33701</p>
+          </div>
+        </div>
+      </div>
+      <div id="map" class="map-area"></div>
+    </div>
+  </section>
+  <!-- / map -->
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav align-items-center mr-auto">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  About Us
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="../../html/staff.html">
-                    <span>Staff</span>
-                  </a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item top-third dropdown-toggle" href="../../html/operations.html">
-                    <span>Operations</span>
-                  </a>
-                  <div class="dropdown-third">
-                    <a class="dropdown-item" href="../../html/apparatus.html">
-                      <span>Apparatus</span>
-                    </a>
-                    <a class="dropdown-item" href="../../html/deployment.html">
-                      <span>Deployment</span>
-                    </a>
-                  </div>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="../../html/faqs.html">
-                    <span>FAQs</span>
-                  </a>
-                <div class="dropdown-divider"></div>
-                  <a class="dropdown-item top-third dropdown-toggle" href="../../html/administration.html">
-                    <span>Administration</span>
-                  </a>
-                  <div class="dropdown-third">
-                    <a class="dropdown-item" href="../../html/iso_accr_stratplan.html">
-                      <span>ISO, Accredidation, Strategic Plan</span>
-                    </a>
-                    <a class="dropdown-item" href="../../html/dept_stats.html">
-                      <span>Department Stats</span>
-                    </a>
-                    <a class="dropdown-item" href="../../html/financial_services.html">
-                      <span>Financial Services</span>
-                    </a>
-                  </div>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="../../html/feedback.html">
-                  <span>Feedback</span>
-                </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="../../html/history.html">
-                  <span>History</span>
-                </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="../../html/news.html">
-                  <span>News</span>
-                </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="../../html/contact.html">
-                  <span>Contact Us</span>
-                </a>
+
+  <section class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <span class="eyebrow mb-1 text-primary">Get in touch with us</span>
+          <h2>We’ll get back to you as soon as possible.</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <form>
+            <div class="form-row mb-1">
+              <div class="col">
+                <input type="text" class="form-control form-control-minimal" placeholder="Name">
               </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Programs
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item top-third dropdown-toggle" href="../../html/prevention.html">
-                    <span>Prevention</span>
-                  </a>
-                  <div class="dropdown-third">
-                    <a class="dropdown-item" href="../../html/community_outreach.html">
-                      <span>Community Outreach</span>
-                    </a>
-                    <a class="dropdown-item" href="../../html/services.html">
-                      <span>Services</span>
-                    </a>
-                  </div>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item top-third dropdown-toggle" href="../../html/ems.html">
-                    <span>EMS</span>
-                  </a>
-                  <div class="dropdown-third">
-                    <a class="dropdown-item" href="../../html/telemedic.html">
-                      <span>Telemedic Program</span>
-                    </a>
-                    <a class="dropdown-item" href="../../html/cpr_firstaid.html">
-                      <span>CPR/First Aid Training</span>
-                    </a>
-                  </div>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="../../html/safety_training.html">
-                    <span>Safety and Training</span>
-                  </a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="../../html/fire_suppression.html">
-                    <span>Fire Suppression</span>
-                  </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="../../html/emergency_management.html">
-                  <span>Emergency Management</span>
-                </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="../../html/specialty_teams.html">
-                  <span>Specialty Teams</span>
-                </a>
+              <div class="col">
+                <input type="text" class="form-control form-control-minimal" placeholder="Mail">
               </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../../html/stations.html" role="button">
-                  Stations
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../../html/public.html" role="button">
-                  Public
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../../html/careers.html" role="button">
-                  Careers
-                </a>
-              </li>
-            </ul>
-
-            <ul class="navbar-nav align-items-center mr-0">
-              <li class="nav-item">
-                <a class="nav-link" href="../../index.html" role="button">
-                  Members Only (template cheat link)
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </header>
-    <!-- header -->
-
-    <!-- cover -->
-    <section>
-      <div class="image image-overlay" style="background-image:url(../../assets/images/demo/image-2.jpg)"></div>
-      <div class="container pt-10">
-        <div class="row">
-          <div class="col text-white text-shadow">
-            <h1><b>Contact</b></h1>
-            <p class="lead">
-              <strike>We nurtured the passion for details, which most of the time make the difference.</strike>
-            </p>
-          </div>
+              <div class="col">
+                <input type="text" class="form-control form-control-minimal" placeholder="Phone">
+              </div>
+            </div>
+            <div class="form-row mb-1">
+              <div class="col">
+                <textarea class="form-control form-control-minimal" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message"></textarea>
+              </div>
+            </div>
+            <div class="form-row mt-3">
+              <div class="col">
+                <button class="btn btn-primary px-5">Send Mail</button>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
-    </section>
-    <!-- / cover -->
+    </div>
+  </section>
 
-
-
-    <section>
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-10 col-lg-8">
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium fugiat harum ex dolor ea ut commodi iste, cupiditate libero magnam alias numquam natus ipsum sint accusamus eligendi laboriosam consequuntur tenetur.</p>
-            <hr class="w-25">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum ducimus, quaerat esse numquam delectus minus odit expedita atque maiores illo. Quasi dolore pariatur magni accusamus totam error sunt nesciunt explicabo.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi officiis earum recusandae iure, animi repudiandae blanditiis consectetur nihil id voluptas est ullam doloremque impedit officia nesciunt, minima dolores aspernatur a.</p>
-          </div>
+  <!-- footer -->
+  <footer class="bg-dark text-white">
+    <div class="container py-5">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-md-5 text-center text-md-left">
+          <!-- <h4>St. Pete Fire Rescue</h4> -->
+          <p>727-893-7694<br>
+          400 Dr. Martin Luther King, Jr. Street South<br>St. Petersburg, FL 33701</p>
         </div>
-        <div class="row justify-content-center">
-          <div class="col-md-10 col-lg-8 text-white">
-            <blockquote class="blockquote blockquote-2 bg-primary">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed cupiditate exercitationem quisquam. Saepe, dolor illum amet voluptatem modi voluptatibus, nemo earum eligendi deleniti sit facere quae cum assumenda voluptate, iure.</p>
-              <footer class="blockquote-footer">Michael Doe</footer>
-            </blockquote>
-          </div>
+        <div class="col-md-2 text-center">
+
         </div>
-        <div class="row justify-content-center">
-          <div class="col-md-10 col-lg-8">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum ducimus, quaerat esse numquam delectus minus odit expedita atque maiores illo. Quasi dolore pariatur magni accusamus totam error sunt nesciunt explicabo.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi officiis earum recusandae iure, animi repudiandae blanditiis consectetur nihil id voluptas est ullam doloremque impedit officia nesciunt, minima dolores aspernatur a.</p>
-          </div>
+        <div class="col-md-5 text-center text-md-right">
+          <ul class="socials">
+            <li><a href="https://www.facebook.com/St-Petersburg-Fire-Rescue-828716193866429/" class="icon-facebook fs-20"></a></li>
+            <li><a href="https://www.instagram.com/stpetefr/" class="icon-instagram fs-20"></a></li>
+            <li><a href="https://twitter.com/StPeteFR" class="icon-twitter fs-20"></a></li>
+            <!-- <li><a href="" class="icon-linkedin fs-20"></a></li> -->
+          </ul>
         </div>
       </div>
-    </section>
-
-    <!-- footer -->
-    <footer class="bg-dark text-white">
-      <div class="container py-5">
-        <div class="row justify-content-between align-items-center">
-          <div class="col-md-5 text-center text-md-left">
-            <!-- <h4>St. Pete Fire Rescue</h4> -->
-            <p>727-893-7694<br>
-            400 Dr. Martin Luther King, Jr. Street South<br>St. Petersburg, FL 33701</p>
-          </div>
-          <div class="col-md-2 text-center">
-
-          </div>
-          <div class="col-md-5 text-center text-md-right">
-            <ul class="socials">
-              <li><a href="https://www.facebook.com/St-Petersburg-Fire-Rescue-828716193866429/" class="icon-facebook fs-20"></a></li>
-              <li><a href="https://www.instagram.com/stpetefr/" class="icon-instagram fs-20"></a></li>
-              <li><a href="https://twitter.com/StPeteFR" class="icon-twitter fs-20"></a></li>
-              <!-- <li><a href="" class="icon-linkedin fs-20"></a></li> -->
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- / footer -->
+    </div>
+  </footer>
+  <!-- / footer -->
 
 
+  <script>
+     function initMap() {
+      // Styles a map in night mode.
+      var map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: 27.7666162, lng: -82.6474523},
+        zoom: 15,
+        disableDefaultUI: true,
+        styles: [
+          {
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#212121"
+              }
+            ]
+          },
+          {
+            "elementType": "labels.icon",
+            "stylers": [
+              {
+                "visibility": "off"
+              }
+            ]
+          },
+          {
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#757575"
+              }
+            ]
+          },
+          {
+            "elementType": "labels.text.stroke",
+            "stylers": [
+              {
+                "color": "#212121"
+              }
+            ]
+          },
+          {
+            "featureType": "administrative",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#757575"
+              }
+            ]
+          },
+          {
+            "featureType": "administrative.country",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#9e9e9e"
+              }
+            ]
+          },
+          {
+            "featureType": "administrative.land_parcel",
+            "stylers": [
+              {
+                "visibility": "off"
+              }
+            ]
+          },
+          {
+            "featureType": "administrative.locality",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#bdbdbd"
+              }
+            ]
+          },
+          {
+            "featureType": "poi",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#757575"
+              }
+            ]
+          },
+          {
+            "featureType": "poi.park",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#181818"
+              }
+            ]
+          },
+          {
+            "featureType": "poi.park",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#616161"
+              }
+            ]
+          },
+          {
+            "featureType": "poi.park",
+            "elementType": "labels.text.stroke",
+            "stylers": [
+              {
+                "color": "#1b1b1b"
+              }
+            ]
+          },
+          {
+            "featureType": "road",
+            "elementType": "geometry.fill",
+            "stylers": [
+              {
+                "color": "#2c2c2c"
+              }
+            ]
+          },
+          {
+            "featureType": "road",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#8a8a8a"
+              }
+            ]
+          },
+          {
+            "featureType": "road.arterial",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#373737"
+              }
+            ]
+          },
+          {
+            "featureType": "road.highway",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#3c3c3c"
+              }
+            ]
+          },
+          {
+            "featureType": "road.highway.controlled_access",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#4e4e4e"
+              }
+            ]
+          },
+          {
+            "featureType": "road.local",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#616161"
+              },
+              {
+                "visibility": "off"
+              }
+            ]
+          },
+          {
+            "featureType": "transit",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#757575"
+              }
+            ]
+          },
+          {
+            "featureType": "water",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#000000"
+              }
+            ]
+          },
+          {
+            "featureType": "water",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#3d3d3d"
+              }
+            ]
+          }
+        ]
+      });
+
+      var pin ='../../assets/images/pin.svg';
+
+      var marker = {
+          url: pin,
+          //state your size parameters in terms of pixels
+          size: new google.maps.Size(70, 60),
+          scaledSize: new google.maps.Size(70, 60),
+          origin: new google.maps.Point(0,0)
+      }
+
+      var marker = new google.maps.Marker({
+        position: map.getCenter(),
+        icon: pin,
+        map: map
+      });
+    }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHtKZB7XlS_CVrIFsPbgroMG0SgX3c-po&callback=initMap"
+  async defer></script>
 
     <script src="../../assets/js/vendor.js"></script>
     <script src="../../assets/js/app.js"></script>
