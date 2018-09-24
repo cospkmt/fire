@@ -38,3 +38,27 @@ section#default {
 .body-bullets {
   color: #999 !important;
 }
+
+.flaticon:before  {
+  font-size: 50px !important;
+}
+
+.mission {
+  padding-bottom: 0px;
+}
+
+.crt-feed.crt-feed-branded {
+  padding-bottom: 0px !important;
+}
+
+.facebook-feed {
+  padding: 80px 100px 120px 100px;
+}
+
+.crt-grid-post {
+  padding-right: 20px;
+}
+
+.facebook-header {
+  padding-bottom: 40px;
+}
