@@ -1,12 +1,12 @@
 {
-  "name": "go",
+  "name": "stpetefire",
   "version": "1.0.0",
-  "description": "Multipurpose HTML Template",
+  "description": "Website for St. Pete Fire Rescue",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Jenia Stratila",
+  "author": "St. Petersburg Marketing",
   "devDependencies": {
     "browser-sync": "^2.23.6",
     "gulp": "^3.9.1",

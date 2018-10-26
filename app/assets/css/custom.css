@@ -14,6 +14,7 @@
 .owl-carousel .owl-stage-outer .owl-stage .owl-item img {
   width: 100% !important;
   height: 70%;
+  object-fit: contain;
 }
 
 header {
